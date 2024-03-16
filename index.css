@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+
+/* Custom Properties */
+
+:root {
+  --ff-primary: "Playfair Display", serif;
+  --ff-secondary: "Monsterrat", sans-serif;
+
+  --main-bg-clr: #f8f2ed;
+  --secondary-bg-clr: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  --third-bg-clr: linear-gradient(-20deg, #d558c8 0%, #24d292 100%); 
+  --fourth-bg-clr: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+
+  --main-text-clr: black;
+  --secondary-text-clr: #38598b;
+  --tertiary-text-clr: #f5f9ee;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+}
+
