@@ -204,4 +204,14 @@ ul {
    width: 31.25rem;
    border-radius: 5%;
  }
- 
+
+ /* Portfolio */
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
