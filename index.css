@@ -133,19 +133,6 @@ ul {
   opacity: 0;
 }
 
-.social-list {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-right: 70px;
-}
-
-.social-list__link {
-  color: var(--secondary-text-clr);
-  font-size: var(--fs-h3);
-
-}
-
 
 /* Hamburger */
 .hamburger {
@@ -227,6 +214,29 @@ ul {
 .my-work {
   background-color: var(--secondary-text-clr);
 }
+
+/* Footer Section */
+footer {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-list {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social-list__link {
+  color: var(--secondary-text-clr);
+  font-size: var(--fs-h3);
+  
+}
+
+
 
 /* Media Queries
 @media screen and (min-width: 320px) {
