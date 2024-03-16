@@ -155,9 +155,11 @@ ul {
 
 /* Hamburger */
 .hamburger {
-  display: none;
-  position: relative;
+  /* display: none; */
+  position: fixed;
+  right: 2rem;
   margin-top: 2rem;
+  
 
 }
 .hamburger,
@@ -227,12 +229,39 @@ ul {
 }
 
 .portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  padding: 2rem;
+} 
+.portfolio p {
+  position: relative;
+  top: 8rem;
+  z-index: 0;
+}
+
+.portfolio__img {
+  height: 20rem;
+  position: relative;
+	margin-top: 0px;
+  z-index: 10;
+}
+
+.portfolio__img:hover {
+	transform: translate();
+	animation-name: transform;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	/* animation-iteration-count: 5; */
+	animation-fill-mode: forwards;
 }
 
 .my-work {
   background-color: var(--secondary-text-clr);
+  padding: 2rem;
+}
+
+@keyframes transform {
+	to {transform: translateX(105%);}
 }
 
 /* Footer Section */
