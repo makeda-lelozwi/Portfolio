@@ -215,9 +215,17 @@ ul {
   text-align: center;
 }
 
+.section__subtitle {
+  font-family: var(--ff-secondary);
+}
+
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.my-work {
+  background-color: var(--secondary-text-clr);
 }
 
 /* Media Queries
