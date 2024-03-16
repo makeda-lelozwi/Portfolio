@@ -129,3 +129,44 @@ ul {
   opacity: 0;
 }
 
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-right: 70px;
+}
+
+.social-list__link {
+  color: var(--secondary-text-clr);
+  font-size: var(--fs-h3);
+
+}
+
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  position: relative;
+
+}
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background: var(--main-text-clr);
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before { top: 6px; }
+.hamburger::after { bottom: 6px; }
+
